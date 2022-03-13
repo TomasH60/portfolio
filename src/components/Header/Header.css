@@ -1,0 +1,97 @@
+.MenuBox {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  
+  background-color: #00000070;
+  height: clamp(65px, 5vw, 80px);
+  /*box-shadow: rgba(0, 0, 0, 0.342) 0px 5px 15px;*/
+  z-index: 10;
+  transition: background-color 0.5s;
+}
+.logo {
+  margin-right: auto;
+  height: 80%;
+  width: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 3%;
+}
+
+.MobileMenu-enter {
+  transform: translateX(100%);
+  overflow-y: hidden;
+  
+}
+.MobileMenu-enter-active {
+  transform: translateX(0%);
+  transition: transform 500ms;
+  
+}
+.MobileMenu-exit {
+  transform: translateX(0%);
+  overflow-y: hidden;
+  
+}
+.MobileMenu-exit-active {
+  transform: translateX(100%);
+  transition: transform 500ms;
+ 
+}
+.MobileMenuBlur-enter {
+  opacity: 0;
+}
+.MobileMenuBlur-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.MobileMenuBlur-exit {
+  opacity: 1;
+}
+.MobileMenuBlur-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+.MobileMenu {
+  position: fixed;
+  top: 0;
+  width: 40%;
+  height: 100vh;
+  min-width: 200px;
+  background-color: #00000070;
+  /*box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
+  z-index: 5;
+  right: 0;
+  
+
+  
+
+}
+.MobileMenuItems {
+  position: relative;
+  top: 85px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+}
+
+.MobileMenuButton a {
+  position: relative;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.MobileMenuButton {
+  margin: 0 0 25px 15px;
+}
+.MobileMenuButton p {
+  
+  font-weight: 600;
+  margin: 0;
+  position: relative;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  font-size: clamp(1.3rem, 10%, 30%);
+}

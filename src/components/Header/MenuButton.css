@@ -1,0 +1,33 @@
+.MenuButton {
+  position: relative;
+  height: 100%;
+  width: auto;
+  margin-right: 4%;
+  
+  
+}
+
+.MenuButton a:hover {
+  color: #b61df3;
+  transition: color 0.5s;
+  
+}
+.MenuButton a  {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  
+}
+.MenuButton p {
+  padding: 8px;
+  font-weight: 600;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  /*font-size: clamp(10px, 20px, 40px);*/
+  font-size: clamp(1.3rem, 10%, 30%);
+  transform: translateY(-50%);
+}
+
+
+

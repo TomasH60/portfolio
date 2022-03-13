@@ -1,0 +1,74 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+
+  background-color: #21d4fd;
+  background-image: linear-gradient(215deg, #16abcc 0%, #8826b6 70%);
+
+  font-family: "Outfit", sans-serif;
+  font-family: "Raleway", sans-serif;
+  /*border-bottom: 3px solid red;*/
+  filter: blur(0.8);
+}
+body,
+#root {
+  height: 100%;
+}
+#Section1 {
+  display: flex;
+
+  align-items: center;
+  top: 0;
+  position: relative;
+  height: 95vh;
+
+  z-index: 0;
+}
+#Section2,
+#Section3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  position: relative;
+  height: auto;
+}
+#Section3 {
+  height: auto;
+  justify-content: space-between;
+}
+#Section2 {
+  scroll-margin-top: 70px;
+}
+#Section2 > h1,
+#Section3 > h1 {
+  position: relative;
+  top: 0;
+  text-shadow: 3px 4px 7px rgba(73, 73, 73, 0.8);
+
+  color: white;
+  font-size: clamp(2.5rem, 2vw, 6rem);
+}
+
+/** {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+}*/
+
+@media only screen and (max-width: 870px) {
+  .MenuButton {
+    display: none;
+  }
+}
+@media only screen and (min-width: 870px) {
+  .MobileMenu {
+    display: none;
+  }
+  .MobileMenuBlur {
+    display: none !important;
+  }
+}

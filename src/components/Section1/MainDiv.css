@@ -1,0 +1,109 @@
+.Card {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  opacity: 0;
+  height: auto;
+  font-size: 1.4rem;
+}
+.AppleEmoji {
+  position: relative;
+  order: 2;
+  height: 100%;
+  width: auto;
+  margin: 0 0 0 5%;
+}
+.AppleEmoji img {
+  position: relative;
+  height: clamp(400px, 35vw, 450px);
+  margin: auto;
+  filter: saturate(0.95);
+}
+
+.Text a {
+  width: auto;
+  height: auto;
+  text-decoration: none;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.Text {
+  color: white;
+  font-weight: 500;
+  margin: 0 5% 0 0;
+  position: relative;
+  order: 1;
+  height: auto;
+  vertical-align: middle;
+  max-height: 300px;
+}
+.Text p {
+  margin: 0;
+  font-size: clamp(1.5rem, 1vw, 3rem);
+  text-shadow: 3px 4px 7px rgba(73, 73, 73, 0.8);
+}
+.Text h1 {
+  margin: 8% 0 8% 0;
+  font-size: clamp(2.5rem, 2vw, 6rem);
+  text-shadow: 3px 4px 7px rgba(73, 73, 73, 0.8);
+}
+
+.Buttons {
+  border: 0;
+  background: #1637cc;
+  border-radius: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 45px;
+  font-size: clamp(1.3rem, 1vw, 3rem);
+  padding: 0 48px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.Buttons:not([disabled]):focus {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0), -0.125rem -0.125rem 1rem #b61df380,
+    0.125rem 0.125rem 1rem #b61df383;
+}
+
+.Buttons:not([disabled]):hover {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0), -0.125rem -0.125rem 1rem #b61df3,
+    0.125rem 0.125rem 1rem #b61df3;
+}
+
+@media only screen and (max-width: 830px) {
+  .Text {
+    margin-right: 0;
+  }
+  .AppleEmoji {
+    display: none;
+  }
+
+  .Text p {
+    font-size: clamp(1.3rem, 1.5vw, 1.5vw);
+  }
+  .Text h1 {
+    font-size: clamp(2.3rem, 2.3vw, 2.3vw);
+  }
+  .Buttons {
+    padding-left: clamp(10px, 10vw, 40px);
+    padding-right: clamp(10px, 10vw, 40px);
+  }
+}
