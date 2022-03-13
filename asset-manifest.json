@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio-master/static/css/main.d07b7037.css",
+    "main.js": "/portfolio-master/static/js/main.415c0826.js",
+    "static/media/Head.png": "/portfolio-master/static/media/Head.f15f9b39cd8b453bb455.png",
+    "static/media/Nftones.jpg": "/portfolio-master/static/media/Nftones.aa061166faedb58d3c99.jpg",
+    "static/media/twitterIcon.svg": "/portfolio-master/static/media/twitterIcon.9d5b398b5b0106821da7c1586f6fe1dd.svg",
+    "static/media/linkedIcon.svg": "/portfolio-master/static/media/linkedIcon.818b24d4ffa1a3dd20d3081f746597a3.svg",
+    "index.html": "/portfolio-master/index.html",
+    "static/media/gitIcon.svg": "/portfolio-master/static/media/gitIcon.fc0ffe042a9582d2a394e1c609baa9f2.svg",
+    "static/media/logo.svg": "/portfolio-master/static/media/logo.80677fecf1d9e5faf0b08803a05dbea7.svg",
+    "main.d07b7037.css.map": "/portfolio-master/static/css/main.d07b7037.css.map",
+    "main.415c0826.js.map": "/portfolio-master/static/js/main.415c0826.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d07b7037.css",
+    "static/js/main.415c0826.js"
+  ]
+}
