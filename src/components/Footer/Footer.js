@@ -3,7 +3,7 @@ import "./Footer.css";
 import logo from "../Header/img/logo.svg";
 import git from "./img/gitIcon.svg";
 import linked from "./img/linkedIcon.svg";
-import twitter from "./img/twitterIcon.svg";
+import xlogo from "./img/xlogo.svg"
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="logoIcon">
         <img src={logo} alt="error"></img>
       </div>
-      <p>© Copyright 2021. All right reserved</p>
+      <p>© Copyright 2024. All right reserved</p>
       <div className="icons">
         <a href="https://github.com/TomasH60" target="_blank" rel="noreferrer">
           <img src={git} alt="error"></img>
@@ -24,7 +24,7 @@ const Footer = () => {
           <img src={linked} alt="error"></img>
         </a>
         <a href="https://twitter.com/TomasH70" target="_blank" rel="noreferrer">
-          <img src={twitter} alt="error"></img>
+          <img src={xlogo} alt="error"></img>
         </a>
       </div>
     </div>

@@ -7,7 +7,7 @@ const ContainerItem = (props) => {
       <div className="TextItem">
         <h3>Learn more</h3>
         <p>{props.text}</p>
-        <a href="http://www.nftones.net">Project Page👆</a>
+        <a href="https://tomash60.github.io/NFTones/" target="_blank">Project Page👆</a>
       </div>
       <img className="Image" src={props.imgsrc} alt="error"></img>
     </div>

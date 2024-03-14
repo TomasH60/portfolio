@@ -12,7 +12,7 @@ const MainDiv3 = React.forwardRef((props, ref) => {
       style={{ y: "10vh", opacity: 0 }}
       ref={ref}
     >
-      <ContainerItem text="NFTones is a simple 8-bit nft song collection. The site is done in ReactJS with the use of react-three-fiber. Click the project page to learn more." imgsrc={NFTones} />
+      <ContainerItem text="NFTones was supposed to be a simple 8bit style song NFT collection. The site is made in Hardhat using React-js and react-three-fiber." imgsrc={NFTones} />
     </motion.div>
   );
 });

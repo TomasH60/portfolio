@@ -14,21 +14,25 @@ const MainDiv = () => {
         <p>Hello 👋, I'm</p>
         <h1>
           Tomáš Horička
-          <br />
+
         </h1>
         <p>
-          an aspiring UI/UX developer
+          an aspiring software developer
           <br />
-          and a computer science student.
+          and a computer science student
+          <br /> at{" "}
+          <a
+            href="https://www.fiit.stuba.sk/"
+            target="_blank"
+            className="fiit-link"
+          >
+            FIIT STU
+          </a>
         </p>
-        <div className="Button">
-          <a href="http://www.example.com" className="Buttons">
-            Get CV
-          </a>
-          <a href="http://www.example.com" className="Buttons">
-            Hire Me
-          </a>
-        </div>
+
+        <a href={`${process.env.PUBLIC_URL}/cv.pdf`} target="_blank" className="Buttons">
+          Get CV
+        </a>
       </div>
 
       <div className="AppleEmoji">

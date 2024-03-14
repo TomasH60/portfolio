@@ -23,23 +23,13 @@
   filter: saturate(0.95);
 }
 
-.Text a {
-  width: auto;
-  height: auto;
-  text-decoration: none;
-}
-
-.Button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5%;
-}
 .Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   color: white;
   font-weight: 500;
   margin: 0 5% 0 0;
-  position: relative;
   order: 1;
   height: auto;
   vertical-align: middle;
@@ -49,25 +39,33 @@
   margin: 0;
   font-size: clamp(1.5rem, 1vw, 3rem);
   text-shadow: 3px 4px 7px rgba(73, 73, 73, 0.8);
+  
 }
 .Text h1 {
-  margin: 8% 0 8% 0;
   font-size: clamp(2.5rem, 2vw, 6rem);
   text-shadow: 3px 4px 7px rgba(73, 73, 73, 0.8);
 }
 
+.fiit-link {
+  text-decoration: none;
+  color: white;
+
+}
+.fiit-link:hover {
+  color:#b61df3;
+  transition: color 500ms;
+}
 .Buttons {
   border: 0;
+  margin-top: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background: #1637cc;
   border-radius: 12px;
   color: #ffffff;
   cursor: pointer;
-  display: inline-block;
-  margin-top: 45px;
   font-size: clamp(1.3rem, 1vw, 3rem);
-  padding: 0 48px;
   font-weight: 500;
-  line-height: 2.5;
   outline: transparent;
   text-align: center;
   text-decoration: none;

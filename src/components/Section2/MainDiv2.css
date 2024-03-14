@@ -11,15 +11,18 @@
     
 }
 .Text1 p {
-    font-size: clamp(1rem, 1vw, 2rem);
+    font-size: clamp(1.3rem, 1vw, 2rem);
     text-shadow: 3px 4px 7px rgba(73, 73, 73, 0.8);
-    line-height: 25px;
+    line-height: 27px;
     
     color: white;
     width: 100%;
 
 }
-
+.content p {
+    text-indent: 20px; /* Adjust the value to increase or decrease the indentation */
+  }
+  
 
 
 br {

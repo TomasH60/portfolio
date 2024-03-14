@@ -36,12 +36,7 @@ const Header = () => {
           style={{ filter: "invert(1)" }}
           alt="error"
         />
-        <MenuButton
-          text="Home"
-          link_src="#Section1"
-          className="MenuButton"
-          target="_self"
-        />
+        
         <MenuButton
           text="About me"
           link_src="#Section2"
@@ -61,7 +56,7 @@ const Header = () => {
           target="_blank"
         />
         <MenuButton
-          text="Twitter"
+          text="X"
           link_src="https://twitter.com/TomasH70"
           className="MenuButton"
           target="_blank"
@@ -84,15 +79,7 @@ const Header = () => {
       >
         <div className="MobileMenu">
           <div className="MobileMenuItems">
-            <MenuButton
-              text="Home"
-              link_src="#"
-              className="MobileMenuButton"
-              target="_self"
-              onClick={(event) => {
-                mobileMenuHandler("Section1", event);
-              }}
-            />
+            
             <MenuButton
               text="About me"
               link_src="#"
@@ -118,7 +105,7 @@ const Header = () => {
               target="_blank"
             />
             <MenuButton
-              text="Twitter"
+              text="X"
               link_src="https://twitter.com/TomasH70"
               className="MobileMenuButton"
               target="_blank"
